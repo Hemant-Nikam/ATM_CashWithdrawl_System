@@ -1,0 +1,28 @@
+div{
+    background-color: rgb(102, 136, 220);
+}
+input{
+    border-radius: 10px;
+    height: 20px;
+    width: 80px;
+}
+
+.container{
+    height: 500px;
+    width: 800px;
+    background-color: blueviolet;
+}
+
+#addBtn{
+    display: block;
+}
+#subNote{
+    display: flex;
+}
+
+#addNotes{
+    background-color: aquamarine;
+    height: 50px;
+    width: 800px;
+    display: flex;
+}

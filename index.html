@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p id="showBal">Current Bal : 0
+        </p>
+        <form id = "addNotes">
+            
+            <label for="twoK" >Enter total 2000 notes : </label>
+            <input type="text" id="twoK">
+    
+            <label for="fiveH" >Enter total 500 notes : </label>
+            <input type="text" id="fiveH">
+    
+            <label for="twoH" >Enter total 200 notes : </label>
+            <input type="text" id="twoH">
+    
+            <label for="oneH" >Enter total 100 notes : </label>
+            <input type="text" id="oneH">
+            
+        </form>
+        
+        <button type="button" id="addBtn">Add the Amount</button>
+
+
+        <div class="notes">
+            Available Notes :
+            <br>
+            <p id="avail2k">2000 Rs Notes : 0</p>
+            <p id="avail5h">500 Rs Notes : 0</p>
+            <p id="avail2h">200 Rs Notes : 0</p>
+            <p id="avail1h">100 Rs Notes : 0</p>
+        </div>
+
+        <form id="subNote">
+            
+            <label for="withdraw" >Enter withdraw amount</label>
+            <input type="text" id="withdraw">
+
+            <div id="message"></div>
+            
+        </form>
+        
+        <button type="button" id="withdrawBtn">Submit</button>
+
+        
+        
+        <div id = "historyList" >
+        </div>
+
+
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
